@@ -30,21 +30,33 @@ export default class Start extends React.Component {
                  <View style={styles.colorStyle}>
 
              <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel="More options"
+                  accessibilityHint="Let’s you choose you backround color."
                   style={styles.backColor1}
                   onPress={() => this.setState({ backColor: '#090C08' })} >
                
                </TouchableOpacity>
                <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel="More options"
+                  accessibilityHint="Let’s you choose you backround color."
                   style={styles.backColor2}
                   onPress={() => this.setState({ backColor: '#474056' })} >
                
                </TouchableOpacity>
                <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel="More options"
+                  accessibilityHint="Let’s you choose you backround color."
                   style={styles.backColor3}
                   onPress={() => this.setState({ backColor: '#8A95A5' })} >
                
                </TouchableOpacity>
                <TouchableOpacity
+                  accessible={true}
+                  accessibilityLabel="More options"
+                  accessibilityHint="Let’s you choose you backround color."
                   style={styles.backColor4}
                   onPress={() => this.setState({ backColor: '#B9C6AE' })} >
                
