@@ -17,7 +17,7 @@ export default class Start extends React.Component {
     
      return (
      <View style={styles.container}>
-         <ImageBackground source={require('/home/giuseppe/Desktop/Chat/assets/assets_project/Background-Image.png')} style={styles.image}>
+         <ImageBackground source={require('../assets/assets_project/Background-Image.png')} style={styles.image}>
            <Text style={styles.title}>Chat App</Text>
            <View style={styles.chatBox}>
              <TextInput style={styles.InputText}
