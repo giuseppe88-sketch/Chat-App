@@ -86,7 +86,7 @@ export default class Chat extends React.Component {
       text: messages.text,
       user: {
         _id: messages.user._id,
-        avatar: messages.user.avatar,
+       // avatar: messages.user.avatar,
         name: messages.user.name,
       },
     })
@@ -95,11 +95,13 @@ export default class Chat extends React.Component {
   onSend(messages = []) {
     this.setState(previousState => ({
       messages: GiftedChat.append(previousState.messages, messages),
-    })),
+    }),
     () => {
       this.addMessages();
     }
+    );
   } 
+  
 
   renderBubble(props) {
     return (
