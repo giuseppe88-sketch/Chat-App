@@ -66,3 +66,8 @@ Project is created with:
 * Expo 
 * React Navigation
 * Javascript
+* Node.js
+* Gifted Chat
+* Firebase
+* netinfo
+* React-native-maps
