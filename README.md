@@ -5,6 +5,8 @@ Simple chat app created whit React native
 ## Table of contents
 
 * [General-info] (#general-info)
+* [Getting-Started] (#getting-started)
+* [Setup] (#Setup)
 * [User-Stories] (#user-stories)
 * [Technologies] (#technologies)
 
@@ -12,6 +14,36 @@ Simple chat app created whit React native
 
 Whit this project I build a chat app for mobile devices using React Native. The app will provide users with a chat interface and options to share images and their
 location.
+
+## Getting Started
+
+What do you need
+
+* node.js
+* Expo Command Line Interface
+
+```
+npm install expo-cli --global
+
+```
+* Expo account
+* To run the app the Expo mobile app from your device's app store
+
+## Setup
+
+Start by cloning this repository 
+
+```
+npm install
+```
+
+to start the project
+
+```
+expo start
+```
+After starting the app scan the QR code whit the device's camera(iOS)
+
 
 ## User Stories
 
